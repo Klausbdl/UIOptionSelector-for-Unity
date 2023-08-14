@@ -1,8 +1,7 @@
 # UIOptionSelector
 A UI prefab that lets you pick between options by clicking on the arrows. Scroll down to see usage.
 
-![image](https://github.com/Klausbdl/UIOptionsSelector/assets/43257834/aadcc812-1d7c-4eb7-a16a-f2995c1f6a0d)
-
+![img 1](img%201.png)
 
 It uses Text Mesh Pro text, but you can easily change the code to accept the normal Text component.
 For the visual indicator below, it uses a Horizontal Layout Group. The bars are automatically instanced and uses the property 
@@ -16,7 +15,7 @@ For the visual indicator below, it uses a Horizontal Layout Group. The bars are 
 
 Example:
 
-![image](https://github.com/Klausbdl/UIOptionsSelector/assets/43257834/e4c056f2-42cf-45a8-9092-be0f5373bb77)
+![img 2](img%202.png)
 
-![ui options selector](https://github.com/Klausbdl/UIOptionsSelector/assets/43257834/4739811e-e279-48e3-a1b1-61280b9b74c5)
+![ui options selector](ui%20options%20selector.gif)
 
