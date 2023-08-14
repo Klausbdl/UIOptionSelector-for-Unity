@@ -23,7 +23,10 @@ public class UIOptionSelector : MonoBehaviour
     {
         for (int i = 0; i < Options.Count; i++)
         {
-            listElements.Add(Instantiate(new GameObject().AddComponent<Image>(), listTransform));
+            GameObject go = new GameObject();
+            go.AddComponent<Image>();
+            go.transform.SetParent(listTransform, false);
+            listElements.Add(go.GetComponent<Image>());
         }
 
         for (int i = 0; i < listElements.Count; i++)
