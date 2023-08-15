@@ -38,23 +38,6 @@ public class UIOptionSelector : MonoBehaviour
     public void AddOptions(List<string> options) //use to dynamically add options
     {
         Options.AddRange(options);
-
-        for (int i = 0; i < options.Count; i++)
-        {
-            GameObject go = new GameObject();
-            go.AddComponent<Image>();
-            go.transform.SetParent(listTransform, false);
-            listElements.Add(go.GetComponent<Image>());
-        }
-
-        for (int i = 0; i < listElements.Count; i++)
-        {
-            if (mat)
-                listElements[i].material = mat;
-            listElements[i].color = color;
-        }
-
-        UpdateList(currentIndex);
     }
 
     private void PopulateVisualList()
